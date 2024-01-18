@@ -49,7 +49,7 @@ END;
 $$
 LANGUAGE plpgsql;
 
--- lb1.sql# SELECT getAverageManufacturingYear();
+-- SELECT getAverageManufacturingYear();
 
 
 
@@ -68,7 +68,7 @@ END;
 $$
 LANGUAGE plpgsql;
 
--- lb1=# SELECT getBodyTypeByManufacturingYear(2000);
+-- SELECT getBodyTypeByManufacturingYear(2000);
 
 
 -- c. функция с выходными аргументами, определенными с помощью OUT;
@@ -90,4 +90,4 @@ END;
 $$
 LANGUAGE plpgsql;
 
--- lb1=# SELECT * FROM getCarInfoById(1);
+-- SELECT * FROM getCarInfoById(1);
